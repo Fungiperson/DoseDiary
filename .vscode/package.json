@@ -1,0 +1,36 @@
+{
+    "name": "project-idx-settings",
+    "displayName": "Project IDX Settings",
+    "description": "A custom settings UI for Project IDX.",
+    "version": "0.1.0",
+    "publisher": "YourPublisher",
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "contributes": {
+      "commands": [
+        {
+          "command": "project-idx-settings.openSettings",
+          "title": "Open Project IDX Settings"
+        }
+      ],
+      "views": {
+        "explorer": [
+          {
+            "id": "project-idx-settings",
+            "name": "Settings",
+            "when": "explorerResourceIsFolder"
+          }
+        ]
+      }
+    },
+    "activationEvents": [
+      "onCommand:project-idx-settings.openSettings"
+    ],
+    "main": "./src/extension.js",
+    "scripts": {
+      "start": "vsce package"
+    },
+    "dependencies": {}
+  }
+  

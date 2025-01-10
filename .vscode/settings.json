@@ -1,0 +1,10 @@
+{
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.colorTheme": "Abyss",
+    "git.enabled": true,
+    "firebase.databaseURL": "https://your-project-id.firebaseio.com"
+  }
+  
