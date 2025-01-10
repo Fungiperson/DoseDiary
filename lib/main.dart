@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/screens/home.dart';  // Ensure this import is correct
+//import 'screens/MedicinePage.dart';
+import 'package:myapp/screens/home.dart';
+import 'package:myapp/screens/med_screen.dart';  // Ensure this import is correct
 
 void main() {
   runApp(const MyApp());
@@ -64,6 +66,16 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
+            ),
+            ElevatedButton(
+              onPressed: () {
+    // Navigate to the MedicinePage
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const MedScreen()),
+    );
+  },
+  child: const Text("Go to Medicine Page"),
             ),
           ],
         ),
