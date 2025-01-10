@@ -28,7 +28,7 @@ class HomeScreen extends StatelessWidget {
             ),
             Text(
               'You can navigate to the Med screen using the button below.',
-              style: Theme.of(context).textTheme.headlineMedium, // Add some content to the second Text widget
+              style: Theme.of(context).textTheme.bodySmall, // Add some content to the second Text widget
             ),
           ],
         ),
