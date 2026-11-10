@@ -1,16 +1,12 @@
-# myapp
+# DoseDiary
 
-A new Flutter project.
+DoseDiary was made for a group project in school. DoseDiary used the Flutter application to create the app.
 
-## Getting Started
+## Features of DoseDiary
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Login functionality
+- The ability to scan QR codes on medication
+- A medication page for the user to review what they need
+- A Settings page to make the app more accessible to users
+- A calendar page to make schedules to pick up medication or appointments to the doctors
+- A journal page to make notes on day
